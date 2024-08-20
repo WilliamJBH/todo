@@ -1,3 +1,4 @@
+// An ordered list showint the todos (items)
 function TODOList() {
   return <ol className="todo_list">{/* <li> list goes here */}</ol>;
 }
