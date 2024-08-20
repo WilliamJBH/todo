@@ -1,4 +1,5 @@
 // This will be the form to write the todo info
+"use client"
 function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();

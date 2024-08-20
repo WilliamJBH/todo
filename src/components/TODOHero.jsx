@@ -1,5 +1,5 @@
 // Overview section to see the number of todos and the number of completed tasks
-function TODOHero(props) {
+function TODOHero({ todos_completed, total_todos }) {
   return (
     <section>
       <div>
