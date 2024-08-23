@@ -3,7 +3,6 @@ import Form from "@/components/Form";
 import Header from "@/components/Header";
 import TODOHero from "@/components/TODOHero";
 import TODOList from "@/components/TODOList";
-
 function Home() {
   return (
     <div className="wrapper">
@@ -14,5 +13,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;

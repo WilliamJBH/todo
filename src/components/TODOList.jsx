@@ -5,21 +5,21 @@ function TODOList({ todos }) {
       {todos && todos.length > 0 ? (
         todos?.map((item, index) => <Item key={index} item={item} />)
       ) : (
-        <p>Create a new todo!</p>
+        <p>Seems lonely in here, what are you up to?</p>
       )}
     </ol>
   );
 }
-
 export default TODOList;
 
 function Item({ item }) {
   return (
-    <li id="{item?.id}" className="todo_item">
+    <li id={item?.id} className="todo_item">
       <button className="todo_items_left">
         <svg>
           <circle cx="11.998" cy="11.998" fillRule="nonzero" r="9.998" />
         </svg>
+        <p>{item?.title}</p>
       </button>
       <div className="todo_items_right">
         <button>

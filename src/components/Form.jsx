@@ -1,11 +1,11 @@
 // This will be the form to write the todo info
-"use client"
+"use client";
 function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
+    // reset the form
     event.target.reset();
   };
-
   return (
     <form className="form" onSubmit={handleSubmit}>
       <label htmlFor="todo">
